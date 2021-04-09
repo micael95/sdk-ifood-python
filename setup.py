@@ -14,7 +14,7 @@ def read(*names, **kwargs):
 
 setup(
     name='sdk-ifood',
-    version='1.0.0.alpha.3',
+    version='1.0.0.alpha.4',
     license='MIT',
     author='Micael Duarte',
     author_email='dev.etraud@gmail.com',

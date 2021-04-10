@@ -17,7 +17,7 @@ As funções são bem intuitivas, basta dar uma breve olhada na documentação d
 # Instalação
 Instale a dependência via gerenciador pip
 ```` commandline
-    pip install sdk-ifood
+pip install sdk-ifood
 ````
 
 #### Exemplo prático

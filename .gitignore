@@ -1,2 +1,4 @@
 dist/
 comands.txt
+src/sdk_ifood.egg-info
+build/

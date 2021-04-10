@@ -4,17 +4,13 @@ from os.path import join, dirname
 from setuptools import setup, find_packages
 
 
-def read(*names, **kwargs):
-    with io.open(
-            join(dirname(__file__), *names),
-            encoding=kwargs.get('encoding', 'utf8')
-    ) as fh:
-        return fh.read()
+with open('README.md', encoding='utf8') as f:
+    long_description = f.read()
 
 
 setup(
     name='sdk-ifood',
-    version='1.0.0.alpha.4',
+    version='1.0.0.alpha.16',
     license='MIT',
     author='Micael Duarte',
     author_email='dev.etraud@gmail.com',
@@ -23,7 +19,8 @@ setup(
     include_package_data=True,
     install_requires=['requests'],
     description='SDK com as features da API do IFood',
-    long_description='',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/etraudm/sdk-ifood-python.git',
     project_urls={
         'Código fonte': 'https://github.com/etraudm/sdk-ifood-python.git'

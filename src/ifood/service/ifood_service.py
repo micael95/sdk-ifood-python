@@ -10,7 +10,6 @@ class IfoodService(BaseService):
         self.clientSecret = client_secret
 
         # Create a token instance
-
         self.credentials = AuthenticationService(client_id=client_id, client_secret=client_secret, grant_type=grant_type)
         self.credentials.execute()
 

@@ -61,4 +61,21 @@ except IfoodException as ifoodException:
     print(ifoodException.__str__())
 
 ````
+Caso deseje utilizar os serviços dos módulos avulsos:
+```` python
+from ifood.service import AuthenticationService, OrderService
+from ifood.model import Token, Order
+
+# Create a token instance
+credentials = AuthenticationService(client_id='seu client_id', client_secret='seu client_secret')
+credentials.execute()
+print(credentials.token)
+
+# Módulo pedido
+order_service = OrderService(credentials.token)
+order: Order = order_service.get_order_details('id do pedido')
+
+````
+
+
 ## Em breve mais módulos e correções...

@@ -3,3 +3,4 @@ comands.txt
 src/sdk_ifood.egg-info
 build/
 __pycache__/
+.idea/

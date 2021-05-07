@@ -10,7 +10,7 @@ with open('README.md', encoding='utf8') as f:
 
 setup(
     name='sdk-ifood',
-    version='1.0.0.alpha.20',
+    version='1.0.0.alpha.21',
     license='MIT',
     author='Micael Duarte',
     author_email='dev.etraud@gmail.com',

@@ -1,9 +1,9 @@
 import json
 
 import requests
-from ifood.repository import BaseRepository
-from ifood.model import Token
-from ifood.exception import IfoodException
+from ..repository import BaseRepository
+from ..model import Token
+from ..exception import IfoodException
 
 class BaseService:
     GET = "get"

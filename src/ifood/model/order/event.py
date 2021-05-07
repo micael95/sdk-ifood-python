@@ -1,7 +1,7 @@
 from datetime import datetime
 from uuid import UUID
-from ifood.serializer import IfoodSerializable
-from ifood.utils import auto_str
+from ...serializer import IfoodSerializable
+from ...utils import auto_str
 
 from uuid import UUID
 

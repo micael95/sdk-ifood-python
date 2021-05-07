@@ -1,10 +1,10 @@
 import json
 from typing import List
 
-from ifood.model import Order, OrderEvent,Token
-from ifood.exception import ValidationIfoodException
-from ifood.repository import OrderRepository
-from ifood.service import BaseService
+from ..model import Order, OrderEvent,Token
+from ..exception import ValidationIfoodException
+from ..repository import OrderRepository
+from ..service import BaseService
 
 # Just requests to module Order
 class OrderService(BaseService):

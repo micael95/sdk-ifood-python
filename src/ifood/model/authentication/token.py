@@ -1,5 +1,4 @@
-from ifood.utils import auto_str
-from ifood.serializer import IfoodSerializable
+from ...serializer import IfoodSerializable
 
 
 class Token(IfoodSerializable):

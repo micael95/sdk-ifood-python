@@ -2,8 +2,8 @@ from datetime import datetime
 from uuid import UUID
 from typing import List
 
-from ifood.utils import auto_str
-from ifood.serializer import IfoodSerializable
+from ...utils import auto_str
+from ...serializer import IfoodSerializable
 
 
 @auto_str

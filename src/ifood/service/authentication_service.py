@@ -1,6 +1,6 @@
 from .base_service import BaseService
-from ifood.repository import AuthenticationRepository
-from ifood.model import Token
+from ..repository import AuthenticationRepository
+from ..model import Token
 
 
 class AuthenticationService(BaseService):

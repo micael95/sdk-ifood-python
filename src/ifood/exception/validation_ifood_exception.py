@@ -1,4 +1,4 @@
-from ifood.utils import auto_str
+from ..utils import auto_str
 
 @auto_str
 class ValidationIfoodException(Exception):

@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from ifood.service import OrderService, IfoodService
+from src.ifood.service import OrderService, IfoodService
 
 class OrderTest(TestCase):
 

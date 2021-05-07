@@ -1,5 +1,5 @@
-from ifood.service import AuthenticationService, OrderService, BaseService
-from ifood.model import Token
+from ..service import AuthenticationService, OrderService, BaseService
+from ..model import Token
 
 
 class IfoodService(BaseService):

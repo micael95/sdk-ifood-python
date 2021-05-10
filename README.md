@@ -3,7 +3,6 @@ SDK de integração IFood em python
 
 Quer contribuir ? Envie seu PR <span>&#128526;</span>
 ## Introdução
-Criação de sdk com intuito de aprendizado próprio na geração de pacotes opensource
 
 Para que você possa realizar os testes crie sua conta de desenvolvedor no novo portal do desenvolvedor do IFood
 
